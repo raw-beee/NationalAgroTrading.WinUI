@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hm19hIx0Bzg=",
+  "success": true,
+  "projectFilePath": "E:\\Software\\NationalAgroTrading.WinUI\\FyCheck\\FyCheck.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ravi\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\Ravi\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+  ],
+  "logs": []
+}

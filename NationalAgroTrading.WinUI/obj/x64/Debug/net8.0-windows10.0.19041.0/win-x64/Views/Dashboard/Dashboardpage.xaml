@@ -1,0 +1,642 @@
+﻿<Page
+    x:Class="NationalAgroTrading.WinUI.Views.Dashboard.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<ScrollViewer
+        HorizontalScrollBarVisibility="Disabled"
+        VerticalScrollBarVisibility="Auto">
+
+		<Grid>
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<!-- ========================================================= -->
+			<!-- HEADER -->
+			<!-- ========================================================= -->
+
+			<Grid Grid.Row="0" Margin="0,0,0,24">
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+
+				<StackPanel Grid.Column="0">
+
+					<TextBlock
+                        Text="Dashboard"
+                        FontSize="30"
+                        FontWeight="SemiBold"/>
+
+					<TextBlock
+                        Text="National Agro Trading"
+                        FontSize="14"
+                        Opacity="0.65"
+                        Margin="0,4,0,0"/>
+
+				</StackPanel>
+
+				<!-- Nepali date/time -->
+				<Border
+                    Grid.Column="1"
+                    Padding="16,10"
+                    CornerRadius="8"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+					<StackPanel>
+
+						<TextBlock
+                            Text="Nepali Date"
+                            FontSize="12"
+                            Opacity="0.65"/>
+
+						<TextBlock x:ConnectionId='15'
+                            x:Name="NepaliDateTextBlock"
+                            Text="2082 भाद्र 9, सोमबार"
+                            FontSize="15"
+                            FontWeight="SemiBold"
+                            Margin="0,2,0,0"/>
+
+					</StackPanel>
+
+				</Border>
+
+			</Grid>
+
+
+			<!-- ========================================================= -->
+			<!-- FISCAL YEAR SELECTOR -->
+			<!-- ========================================================= -->
+
+			<Border
+                Grid.Row="1"
+                Padding="16"
+                Margin="0,0,0,24"
+                CornerRadius="10"
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+				<Grid>
+
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*"/>
+						<ColumnDefinition Width="Auto"/>
+						<ColumnDefinition Width="Auto"/>
+						<ColumnDefinition Width="*"/>
+					</Grid.ColumnDefinitions>
+
+					<StackPanel
+                        Grid.Column="0"
+                        VerticalAlignment="Center">
+
+						<TextBlock
+                            Text="Fiscal Year"
+                            FontSize="13"
+                            Opacity="0.65"/>
+
+						<TextBlock x:ConnectionId='14'
+                            x:Name="FiscalYearDateRangeTextBlock"
+                            Text="2082/04/01 - 2083/03/31"
+                            FontSize="13"
+                            Margin="0,3,0,0"/>
+
+					</StackPanel>
+
+
+					<Button x:ConnectionId='11'
+                        x:Name="PreviousFiscalYearButton"
+                        Grid.Column="1"
+                        Content="‹"
+                        Width="42"
+                        Height="38"
+                        Margin="8,0"
+                                                              
+                        ToolTipService.ToolTip="Previous Fiscal Year"/>
+
+
+					<Border
+                        Grid.Column="2"
+                        MinWidth="150"
+                        Padding="18,8"
+                        CornerRadius="8"
+                        Background="{ThemeResource AccentFillColorDefaultBrush}">
+
+						<TextBlock x:ConnectionId='13'
+                            x:Name="FiscalYearTextBlock"
+                            Text="2082/2083"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="16"
+                            FontWeight="SemiBold"
+                            Foreground="{ThemeResource TextOnAccentFillColorPrimaryBrush}"/>
+
+					</Border>
+
+
+					<Button x:ConnectionId='12'
+                        x:Name="NextFiscalYearButton"
+                        Grid.Column="3"
+                        Content="›"
+                        Width="42"
+                        Height="38"
+                        Margin="8,0"
+                        HorizontalAlignment="Left"
+                                                          
+                        ToolTipService.ToolTip="Next Fiscal Year"/>
+
+				</Grid>
+
+			</Border>
+
+
+			<!-- ========================================================= -->
+			<!-- SUMMARY CARDS -->
+			<!-- ========================================================= -->
+
+			<Grid Grid.Row="2" Margin="0,0,0,24">
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+
+				<!-- SALES -->
+				<Border
+                    Grid.Column="0"
+                    Margin="0,0,8,0"
+                    Padding="18"
+                    CornerRadius="10"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+					<StackPanel>
+
+						<TextBlock
+                            Text="Sales"
+                            FontSize="15"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="Today"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,14,0,0"/>
+
+						<TextBlock x:ConnectionId='9'
+                            x:Name="TodaySalesTextBlock"
+                            Text="Rs. 0.00"
+                            FontSize="21"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="This Month"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,10,0,0"/>
+
+						<TextBlock x:ConnectionId='10'
+                            x:Name="MonthlySalesTextBlock"
+                            Text="Rs. 0.00"
+                            FontSize="14"/>
+
+					</StackPanel>
+
+				</Border>
+
+
+				<!-- PURCHASE -->
+				<Border
+                    Grid.Column="1"
+                    Margin="8,0"
+                    Padding="18"
+                    CornerRadius="10"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+					<StackPanel>
+
+						<TextBlock
+                            Text="Purchase"
+                            FontSize="15"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="Today"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,14,0,0"/>
+
+						<TextBlock x:ConnectionId='7'
+                            x:Name="TodayPurchaseTextBlock"
+                            Text="Rs. 0.00"
+                            FontSize="21"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="This Month"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,10,0,0"/>
+
+						<TextBlock x:ConnectionId='8'
+                            x:Name="MonthlyPurchaseTextBlock"
+                            Text="Rs. 0.00"
+                            FontSize="14"/>
+
+					</StackPanel>
+
+				</Border>
+
+
+				<!-- EXPENSE -->
+				<Border
+                    Grid.Column="2"
+                    Margin="8,0"
+                    Padding="18"
+                    CornerRadius="10"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+					<StackPanel>
+
+						<TextBlock
+                            Text="Expenses"
+                            FontSize="15"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="Today"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,14,0,0"/>
+
+						<TextBlock x:ConnectionId='5'
+                            x:Name="TodayExpenseTextBlock"
+                            Text="Rs. 0.00"
+                            FontSize="21"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="This Month"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,10,0,0"/>
+
+						<TextBlock x:ConnectionId='6'
+                            x:Name="MonthlyExpenseTextBlock"
+                            Text="Rs. 0.00"
+                            FontSize="14"/>
+
+					</StackPanel>
+
+				</Border>
+
+
+				<!-- PROFIT / LOSS -->
+				<Border
+                    Grid.Column="3"
+                    Margin="8,0,0,0"
+                    Padding="18"
+                    CornerRadius="10"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+					<StackPanel>
+
+						<TextBlock
+                            Text="Profit / Loss"
+                            FontSize="15"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="Selected Fiscal Year"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,14,0,0"/>
+
+						<TextBlock x:ConnectionId='3'
+                            x:Name="ProfitLossTextBlock"
+                            Text="Rs. 0.00"
+                            FontSize="21"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock x:ConnectionId='4'
+                            x:Name="ProfitLossStatusTextBlock"
+                            Text="No data"
+                            FontSize="12"
+                            Opacity="0.65"
+                            Margin="0,8,0,0"/>
+
+					</StackPanel>
+
+				</Border>
+
+			</Grid>
+
+
+			<!-- ========================================================= -->
+			<!-- CHART PLACEHOLDER -->
+			<!-- ========================================================= -->
+
+			<Border
+                Grid.Row="3"
+                Padding="20"
+                Margin="0,0,0,24"
+                CornerRadius="10"
+                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+				<Grid Height="300">
+
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition Height="*"/>
+					</Grid.RowDefinitions>
+
+					<Grid Grid.Row="0">
+
+						<StackPanel>
+
+							<TextBlock
+                                Text="Fiscal Year Overview"
+                                FontSize="18"
+                                FontWeight="SemiBold"/>
+
+							<TextBlock
+                                Text="Sales, Purchase and Expenses"
+                                FontSize="13"
+                                Opacity="0.65"
+                                Margin="0,3,0,0"/>
+
+						</StackPanel>
+
+						<TextBlock
+                            Grid.Column="1"
+                            Text="Chart will be connected to real data later"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center"
+                            FontSize="12"
+                            Opacity="0.5"/>
+
+					</Grid>
+
+
+					<Grid
+                        Grid.Row="1"
+                        Margin="0,20,0,0">
+
+						<Border
+                            BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8">
+
+							<StackPanel
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center">
+
+								<TextBlock
+                                    Text="Fiscal Year Chart"
+                                    FontSize="20"
+                                    HorizontalAlignment="Center"
+                                    Opacity="0.65"/>
+
+								<TextBlock x:ConnectionId='2'
+                                    x:Name="ChartFiscalYearTextBlock"
+                                    Text="2082/2083"
+                                    FontSize="14"
+                                    HorizontalAlignment="Center"
+                                    Margin="0,8,0,0"
+                                    Opacity="0.5"/>
+
+							</StackPanel>
+
+						</Border>
+
+					</Grid>
+
+				</Grid>
+
+			</Border>
+
+
+			<!-- ========================================================= -->
+			<!-- TABLES -->
+			<!-- ========================================================= -->
+
+			<Grid Grid.Row="4">
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+
+				<!-- TOP PRODUCTS -->
+				<Border
+                    Grid.Column="0"
+                    Margin="0,0,8,24"
+                    Padding="20"
+                    CornerRadius="10"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+					<StackPanel>
+
+						<TextBlock
+                            Text="Top 5 Selling Products"
+                            FontSize="18"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="Placeholder data"
+                            FontSize="12"
+                            Opacity="0.55"
+                            Margin="0,3,0,12"/>
+
+
+						<Grid>
+
+							<Grid.RowDefinitions>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="Auto"/>
+							</Grid.ColumnDefinitions>
+
+
+							<TextBlock
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Text="Product"
+                                FontWeight="SemiBold"/>
+
+							<TextBlock
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                Text="Quantity"
+                                FontWeight="SemiBold"/>
+
+
+							<TextBlock
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Text="—"
+                                Margin="0,12,0,0"/>
+
+							<TextBlock
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                Text="0"
+                                Margin="0,12,0,0"/>
+
+
+							<TextBlock
+                                Grid.Row="2"
+                                Grid.Column="0"
+                                Text="—"
+                                Margin="0,8,0,0"/>
+
+							<TextBlock
+                                Grid.Row="2"
+                                Grid.Column="1"
+                                Text="0"
+                                Margin="0,8,0,0"/>
+
+
+							<TextBlock
+                                Grid.Row="3"
+                                Grid.Column="0"
+                                Text="—"
+                                Margin="0,8,0,0"/>
+
+							<TextBlock
+                                Grid.Row="3"
+                                Grid.Column="1"
+                                Text="0"
+                                Margin="0,8,0,0"/>
+
+
+							<TextBlock
+                                Grid.Row="4"
+                                Grid.Column="0"
+                                Text="—"
+                                Margin="0,8,0,0"/>
+
+							<TextBlock
+                                Grid.Row="4"
+                                Grid.Column="1"
+                                Text="0"
+                                Margin="0,8,0,0"/>
+
+
+							<TextBlock
+                                Grid.Row="5"
+                                Grid.Column="0"
+                                Text="—"
+                                Margin="0,8,0,0"/>
+
+							<TextBlock
+                                Grid.Row="5"
+                                Grid.Column="1"
+                                Text="0"
+                                Margin="0,8,0,0"/>
+
+						</Grid>
+
+					</StackPanel>
+
+				</Border>
+
+
+				<!-- LOW STOCK -->
+				<Border
+                    Grid.Column="1"
+                    Margin="8,0,0,24"
+                    Padding="20"
+                    CornerRadius="10"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+
+					<StackPanel>
+
+						<TextBlock
+                            Text="Low Stock Products"
+                            FontSize="18"
+                            FontWeight="SemiBold"/>
+
+						<TextBlock
+                            Text="Products with stock below 100"
+                            FontSize="12"
+                            Opacity="0.55"
+                            Margin="0,3,0,12"/>
+
+
+						<Grid>
+
+							<Grid.RowDefinitions>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="Auto"/>
+							</Grid.ColumnDefinitions>
+
+
+							<TextBlock
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Text="Product"
+                                FontWeight="SemiBold"/>
+
+							<TextBlock
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                Text="Stock"
+                                FontWeight="SemiBold"/>
+
+
+							<TextBlock
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Text="No low-stock data"
+                                Margin="0,15,0,0"
+                                Opacity="0.6"/>
+
+							<TextBlock
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                Text="—"
+                                Margin="0,15,0,0"
+                                Opacity="0.6"/>
+
+						</Grid>
+
+					</StackPanel>
+
+				</Border>
+
+			</Grid>
+
+		</Grid>
+
+	</ScrollViewer>
+
+</Page>
+

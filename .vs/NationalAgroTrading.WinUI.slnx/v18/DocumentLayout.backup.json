@@ -1,0 +1,1289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Software\\NationalAgroTrading.WinUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\salesbillpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\salesbillpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\salespricehistory\\salespricehistorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\salespricehistory\\salespricehistorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\salespricehistory\\salespricehistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\salespricehistory\\salespricehistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\costpricehistory\\costpricehistorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\costpricehistory\\costpricehistorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\costpricehistory\\costpricehistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\costpricehistory\\costpricehistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\ledger\\ledgerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\ledger\\ledgerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\ledger\\ledgerpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\ledger\\ledgerpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\ledger\\ledgerpdfexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\ledger\\ledgerpdfexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\ledger\\ledgerprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\ledger\\ledgerprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\ledger\\excelexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\ledger\\excelexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\ledger\\openingbalancepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\ledger\\openingbalancepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\ledger\\openingbalancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\ledger\\openingbalancepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\expenses\\expensespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\expenses\\expensespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\expenses\\expensespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\expenses\\expensespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\payment\\updatepaymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\payment\\updatepaymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\UpdatePaymentPage.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\UpdatePaymentPage.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\payment\\addpaymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\payment\\addpaymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\AddPaymentPage.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\AddPaymentPage.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\payment\\updatepaymentpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\payment\\updatepaymentpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\payment\\addpaymentpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\payment\\addpaymentpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\payment\\paymentpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\payment\\paymentpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\payment\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\payment\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\model\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\model\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\updatesalepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\updatesalepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\updatesalepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\updatesalepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\UpdateSalePage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\UpdateSalePage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\addsalepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\addsalepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\billdetailspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\billdetailspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\salespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\salespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\AddSalePage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\AddSalePage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\salesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\salesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\controls\\nepalidatepicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\controls\\nepalidatepicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\controls\\nepalidatepicker.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\controls\\nepalidatepicker.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\updatepurchasepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\updatepurchasepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\updatepurchasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\updatepurchasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\billdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\billdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\sales\\salespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\sales\\salespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\SalesPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\SalesPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\addpurchasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\addpurchasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\model\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\model\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\model\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\model\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\billdetailspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\billdetailspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\billdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\billdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\purchasemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\purchasemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\purchasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\purchasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\addpurchasepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\addpurchasepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\purchase\\purchasepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\purchase\\purchasepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Purchase\\AddPurchasePage.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Purchase\\AddPurchasePage.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\inventory\\updateinventorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\inventory\\updateinventorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\inventory\\updateinventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\inventory\\updateinventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\inventory\\inventorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\inventory\\inventorypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\inventory\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\inventory\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\product\\updateproductpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\product\\updateproductpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\product\\updateproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\product\\updateproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\product\\addproductpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\product\\addproductpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\product\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\product\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\product\\productpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\product\\productpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\product\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\product\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\company\\editcompanypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\company\\editcompanypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\company\\editcompanypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\company\\editcompanypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\company\\companypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\company\\companypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\company\\addcompanypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\company\\addcompanypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\company\\addcompanypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\company\\addcompanypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\company\\companypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\company\\companypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\dashboard\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\dashboard\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\views\\dashboard\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\views\\dashboard\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\helpers\\lastexportpathhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\helpers\\lastexportpathhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\helpers\\numbertowordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\helpers\\numbertowordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|e:\\software\\nationalagrotrading.winui\\nationalagrotrading.winui\\model\\purchaseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8319992-AF06-A060-32D9-D57CC5046A43}|NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI.csproj|solutionrelative:nationalagrotrading.winui\\model\\purchaseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 236,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesBillPdfGenerator.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesBillPdfGenerator.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesBillPdfGenerator.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesBillPdfGenerator.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesBillPdfGenerator.cs",
+              "ViewState": "AgIAAAkDAAAAAAAAAAAuwBUDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T09:02:49.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\MainWindow.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\MainWindow.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T12:24:52.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAmwJkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:26:51.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LedgerPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAIBJwA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T07:07:30.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CostPriceHistoryPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAtwJ4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T09:21:08.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LedgerPDFExporter.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPDFExporter.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPDFExporter.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPDFExporter.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPDFExporter.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:39:37.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CostPriceHistoryPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\CostPriceHistory\\CostPriceHistoryPage.xaml",
+              "ViewState": "AgIAAO0AAAAAAAAAAIBJwAABAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T09:20:58.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesPriceHistoryPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T06:37:11.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesPriceHistoryPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\SalesPriceHistory\\SalesPriceHistoryPage.xaml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-31T06:35:19.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExcelExporter.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\ExcelExporter.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Ledger\\ExcelExporter.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\ExcelExporter.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Ledger\\ExcelExporter.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:39:17.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LedgerPrinter.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPrinter.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPrinter.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPrinter.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPrinter.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:40:09.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LedgerPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Ledger\\LedgerPage.xaml.cs",
+              "ViewState": "AgIAAKgDAAAAAAAAAAAowLsDAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:32:36.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Data\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Data\\DatabaseHelper.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Data\\DatabaseHelper.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Data\\DatabaseHelper.cs",
+              "ViewState": "AgIAAIgCAAAAAAAAAAAowKcCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:55:16.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OpeningBalancePage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:33:46.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OpeningBalancePage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Ledger\\OpeningBalancePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T07:33:27.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExpensesPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml",
+              "ViewState": "AgIAAPwBAAAAAAAAAAAowBsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T06:43:32.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAuwBwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T06:37:47.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExpensesPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Expenses\\ExpensesPage.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAtwFwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T06:43:52.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdatePaymentPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAhwMAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-28T07:30:57.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddPaymentPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-28T06:40:04.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdatePaymentPage.g.i.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\UpdatePaymentPage.g.i.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\UpdatePaymentPage.g.i.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\UpdatePaymentPage.g.i.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\UpdatePaymentPage.g.i.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:48:51.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdatePaymentPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Payment\\UpdatePaymentPage.xaml.cs",
+              "ViewState": "AgIAAEEBAAAAAAAAAEBdwGcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:31:06.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddPaymentPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Payment\\AddPaymentPage.xaml.cs",
+              "ViewState": "AgIAAGYBAAAAAAAAAIBZwIwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T06:40:15.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaymentPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Payment\\PaymentPage.xaml",
+              "ViewState": "AgIAAK0AAAAAAAAAAIBZwMMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-28T06:37:10.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddPaymentPage.g.i.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\AddPaymentPage.g.i.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\AddPaymentPage.g.i.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\AddPaymentPage.g.i.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Payment\\AddPaymentPage.g.i.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAEwCMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T06:40:46.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\Payment.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Model\\Payment.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\Payment.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Model\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:01:26.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateSalePage.g.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\UpdateSalePage.g.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\UpdateSalePage.g.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\UpdateSalePage.g.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\UpdateSalePage.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T05:38:07.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateSalePage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml.cs",
+              "ViewState": "AgIAAB8JAAAAAAAAAAAxwCoJAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T08:03:08.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateSalePage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\UpdateSalePage.xaml",
+              "ViewState": "AgIAAH0CAAAAAAAAAAAhwI8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-27T08:02:55.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddSalePage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\AddSalePage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\AddSalePage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\AddSalePage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\AddSalePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T07:17:14.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BillDetailsPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAqwAsBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T08:03:48.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SalesModels.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesModels.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesModels.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesModels.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesModels.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAqwAIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T08:00:46.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SalesPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwEUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T06:54:42.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NepaliDatePicker.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:13:59.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdatePurchasePage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml.cs",
+              "ViewState": "AgIAAEkHAAAAAAAAAAAkwFgHAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:14:48.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddSalePage.g.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\AddSalePage.g.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\AddSalePage.g.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\AddSalePage.g.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\AddSalePage.g.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAhwE8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T04:55:35.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BillDetailsPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\BillDetailsPage.xaml",
+              "ViewState": "AgIAAFMBAAAAAAAAAAAYwGIBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-27T08:03:38.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdatePurchasePage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\UpdatePurchasePage.xaml",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAtwIwBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T08:57:54.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NepaliDatePicker.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Controls\\NepaliDatePicker.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:14:27.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SalesPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Sales\\SalesPage.xaml",
+              "ViewState": "AgIAACMAAAAAAAAAAIBZwEQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-27T08:01:35.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SalesPage.g.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\SalesPage.g.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\SalesPage.g.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\SalesPage.g.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Sales\\SalesPage.g.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwD8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T10:45:43.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\SaleItem.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Model\\SaleItem.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\SaleItem.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Model\\SaleItem.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:01:19.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\Sale.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Model\\Sale.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\Sale.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Model\\Sale.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:01:10.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AddPurchasePage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4BAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T08:57:01.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Services\\SaleService.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Services\\SaleService.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Services\\SaleService.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Services\\SaleService.cs",
+              "ViewState": "AgIAAJ4DAAAAAAAAAAAowL0DAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:05:27.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BillDetailsPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml.cs",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAowJsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:14:24.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BillDetailsPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\BillDetailsPage.xaml",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAtwNwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T09:14:15.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PurchaseModels.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\PurchaseModels.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\PurchaseModels.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\PurchaseModels.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\PurchaseModels.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAA7wIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:12:36.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AddPurchasePage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\AddPurchasePage.xaml.cs",
+              "ViewState": "AgIAAMgCAAAAAAAAAAAowOcCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T08:57:16.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PurchasePage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml.cs",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAowJEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:13:07.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PurchasePage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Purchase\\PurchasePage.xaml",
+              "ViewState": "AgIAANoAAAAAAAAAAAAhwOsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T08:56:23.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AddPurchasePage.g.i.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Purchase\\AddPurchasePage.g.i.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Purchase\\AddPurchasePage.g.i.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Purchase\\AddPurchasePage.g.i.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Views\\Purchase\\AddPurchasePage.g.i.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T08:59:38.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UpdateInventoryPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowE8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:53:25.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UpdateInventoryPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Inventory\\UpdateInventoryPage.xaml.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAowJgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:53:34.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "InventoryPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAowPUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:45:40.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "InventoryPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Inventory\\InventoryPage.xaml",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAowKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:45:36.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UpdateProductPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAowOAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T08:48:52.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UpdateProductPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Product\\UpdateProductPage.xaml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAtwEYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T08:48:41.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AddProductPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAtwGUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:42:12.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AddProductPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Product\\AddProductPage.xaml.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAowBwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:42:25.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ProductPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAowMMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:41:50.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProductPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Product\\ProductPage.xaml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowJQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:41:41.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EditCompanyPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:34:37.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CompanyPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAkwOQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:21:58.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AddCompanyPage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwFwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:22:26.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EditCompanyPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Company\\EditCompanyPage.xaml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowFYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:19:49.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "AddCompanyPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Company\\AddCompanyPage.xaml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwEwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:19:29.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CompanyPage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Company\\CompanyPage.xaml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAApwKsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T06:19:25.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\App.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\App.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\App.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T12:28:11.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Dashboardpage.xaml",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml",
+              "ViewState": "AgIAAFwCAAAAAAAAAIBZwHICAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T13:07:13.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Dashboardpage.xaml.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Views\\Dashboard\\Dashboardpage.xaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T13:07:53.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "LastExportPathHelper.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Helpers\\LastExportPathHelper.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Helpers\\LastExportPathHelper.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Helpers\\LastExportPathHelper.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Helpers\\LastExportPathHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:06:08.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "NumberToWordConverter.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Helpers\\NumberToWordConverter.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Helpers\\NumberToWordConverter.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Helpers\\NumberToWordConverter.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Helpers\\NumberToWordConverter.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAgwGkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:05:57.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "PurchaseItem.cs",
+              "DocumentMoniker": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\PurchaseItem.cs",
+              "RelativeDocumentMoniker": "NationalAgroTrading.WinUI\\Model\\PurchaseItem.cs",
+              "ToolTip": "E:\\Software\\NationalAgroTrading.WinUI\\NationalAgroTrading.WinUI\\Model\\PurchaseItem.cs",
+              "RelativeToolTip": "NationalAgroTrading.WinUI\\Model\\PurchaseItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:01:03.634Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 252,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:507270594:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1223452571:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1449987874:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1536145965:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:336208536:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:387598383:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1378503754:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2127285914:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 252,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1685622559:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:347885588:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1542800397:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1169012808:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

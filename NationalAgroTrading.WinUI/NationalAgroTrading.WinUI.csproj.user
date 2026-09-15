@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <None Update="App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <Page Update="Views\SalesPriceHistory\SalesPriceHistoryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CostPriceHistory\CostPriceHistoryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Ledger\OpeningBalancePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Ledger\LedgerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Expenses\ExpensesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Payment\UpdatePaymentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Payment\AddPaymentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Payment\PaymentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Sales\BillDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Sales\UpdateSalePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Sales\AddSalePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Sales\SalesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Purchase\BillDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Purchase\UpdatePurchasePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Purchase\AddPurchasePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Purchase\PurchasePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Product\UpdateProductPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Inventory\UpdateInventoryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Inventory\InventoryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Product\AddProductPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Product\ProductPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Company\EditCompanyPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Company\AddCompanyPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Company\CompanyPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\NepaliDatePicker.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <None Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+    <Page Update="Views\Dashboard\Dashboardpage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NationalAgroTrading.WinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NationalAgroTrading.WinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

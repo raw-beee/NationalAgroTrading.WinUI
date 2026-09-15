@@ -1,0 +1,102 @@
+<Page
+    x:Class="NationalAgroTrading.WinUI.Views.Product.AddProductPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<ScrollViewer>
+
+		<Grid
+            MaxWidth="650"
+            Padding="32"
+            HorizontalAlignment="Center">
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<TextBlock
+                Grid.Row="0"
+                Text="Add Product"
+                FontSize="28"
+                FontWeight="SemiBold"
+                Margin="0,0,0,24"/>
+
+			<TextBox
+                x:Name="ProductNameTextBox"
+                Grid.Row="1"
+                Header="Product Name"
+                Margin="0,0,0,12"/>
+
+			<TextBox
+                x:Name="CostPriceTextBox"
+                Grid.Row="2"
+                Header="Cost Price"
+                PlaceholderText="0.00"
+                Margin="0,0,0,12"/>
+
+			<TextBox
+                x:Name="RetailPriceTextBox"
+                Grid.Row="3"
+                Header="Retail Price"
+                PlaceholderText="0.00"
+                Margin="0,0,0,12"/>
+
+			<TextBox
+                x:Name="WholesalePriceTextBox"
+                Grid.Row="4"
+                Header="Wholesale Price"
+                PlaceholderText="0.00"
+                Margin="0,0,0,12"/>
+
+			<TextBox
+                x:Name="HSCodeTextBox"
+                Grid.Row="5"
+                Header="H.S. Code"
+                Margin="0,0,0,12"/>
+
+			<StackPanel
+                Grid.Row="6"
+                Margin="0,8,0,0">
+
+				<TextBlock
+                    Text="VAT Applicable?"
+                    Margin="0,0,0,6"/>
+
+				<RadioButtons
+                    x:Name="VatRadioButtons"
+                    SelectedIndex="0">
+
+					<x:String>No</x:String>
+					<x:String>Yes</x:String>
+
+				</RadioButtons>
+
+				<StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Spacing="8"
+                    Margin="0,20,0,0">
+
+					<Button
+                        Content="Cancel"
+                        Click="CancelButton_Click"/>
+
+					<Button
+                        Content="Save"
+                        Click="SaveButton_Click"/>
+
+				</StackPanel>
+
+			</StackPanel>
+
+		</Grid>
+
+	</ScrollViewer>
+
+</Page>

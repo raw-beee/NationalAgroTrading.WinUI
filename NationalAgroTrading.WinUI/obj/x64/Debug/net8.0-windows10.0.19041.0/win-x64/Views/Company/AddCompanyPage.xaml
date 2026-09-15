@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="NationalAgroTrading.WinUI.Views.Company.AddCompanyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<ScrollViewer>
+
+		<Grid
+            MaxWidth="600"
+            Padding="32"
+            HorizontalAlignment="Center">
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<TextBlock
+                Grid.Row="0"
+                Text="Add Company"
+                FontSize="28"
+                FontWeight="SemiBold"
+                Margin="0,0,0,24"/>
+
+			<TextBox x:ConnectionId='2'
+                x:Name="CompanyNameTextBox"
+                Grid.Row="1"
+                Header="Company Name"
+                Margin="0,0,0,12"/>
+
+			<TextBox x:ConnectionId='3'
+                x:Name="AddressTextBox"
+                Grid.Row="2"
+                Header="Address"
+                Margin="0,0,0,12"/>
+
+			<TextBox x:ConnectionId='4'
+                x:Name="VatPanTextBox"
+                Grid.Row="3"
+                Header="VAT/PAN Number"
+                Margin="0,0,0,12"/>
+
+			<TextBox x:ConnectionId='5'
+                x:Name="Contact1TextBox"
+                Grid.Row="4"
+                Header="P. Contact"
+                Margin="0,0,0,12"/>
+
+			<TextBox x:ConnectionId='6'
+                x:Name="Contact2TextBox"
+                Grid.Row="5"
+                Header="S. Contact"
+                Margin="0,0,0,12"/>
+
+			<TextBox x:ConnectionId='7'
+                x:Name="EmailTextBox"
+                Grid.Row="6"
+                Header="E-mail"
+                Margin="0,0,0,24"/>
+
+			<StackPanel
+                Grid.Row="7"
+                Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                Spacing="8">
+
+				<Button x:ConnectionId='8'
+                    Content="Cancel"
+                                              />
+
+				<Button x:ConnectionId='9'
+                    Content="Save"
+                                            />
+
+			</StackPanel>
+
+		</Grid>
+
+	</ScrollViewer>
+
+</Page>
+

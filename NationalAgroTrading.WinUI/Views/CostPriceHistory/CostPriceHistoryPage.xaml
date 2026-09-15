@@ -1,0 +1,257 @@
+<Page
+    x:Class="NationalAgroTrading.WinUI.Views.CostPriceHistory.CostPriceHistoryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<Grid Background="#111318">
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+
+		<!-- ===================================================== -->
+		<!-- PAGE HEADER                                            -->
+		<!-- ===================================================== -->
+
+		<Grid
+            Grid.Row="0"
+            Margin="32,28,32,22">
+
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="320"/>
+			</Grid.ColumnDefinitions>
+
+
+			<!-- Title -->
+
+			<StackPanel
+                Grid.Column="0"
+                VerticalAlignment="Center">
+
+				<TextBlock
+                    Text="Cost Price History"
+                    FontSize="26"
+                    FontWeight="SemiBold"
+                    Foreground="#F3F4F6"/>
+
+				<TextBlock
+                    Text="View historical cost prices of products"
+                    Margin="0,6,0,0"
+                    FontSize="14"
+                    Foreground="#9CA3AF"/>
+
+			</StackPanel>
+
+
+			<!-- Search -->
+
+			<AutoSuggestBox
+                x:Name="txtSearch"
+                Grid.Column="1"
+                Width="320"
+                Height="44"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                PlaceholderText="Search by product name..."
+                QueryIcon="Find"
+                FontSize="14"
+                TextChanged="TxtSearch_TextChanged"/>
+
+		</Grid>
+
+
+		<!-- ===================================================== -->
+		<!-- HISTORY CARD                                           -->
+		<!-- ===================================================== -->
+
+		<Border
+            Grid.Row="1"
+            Margin="32,0,32,32"
+            Background="#191C22"
+            BorderBrush="#30343D"
+            BorderThickness="1"
+            CornerRadius="10">
+
+			<Grid>
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="52"/>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+
+
+				<!-- ================================================= -->
+				<!-- TABLE HEADER                                       -->
+				<!-- ================================================= -->
+
+				<Border
+                    Grid.Row="0"
+                    Background="#272238"
+                    CornerRadius="10,10,0,0">
+
+					<Grid>
+
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="2*"/>
+							<ColumnDefinition Width="1*"/>
+							<ColumnDefinition Width="1.3*"/>
+						</Grid.ColumnDefinitions>
+
+
+						<TextBlock
+                            Grid.Column="0"
+                            Text="Product Name"
+                            Margin="18,0"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            FontWeight="SemiBold"
+                            Foreground="#F3F4F6"/>
+
+
+						<TextBlock
+                            Grid.Column="1"
+                            Text="Cost Price"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            FontWeight="SemiBold"
+                            Foreground="#F3F4F6"/>
+
+
+						<TextBlock
+                            Grid.Column="2"
+                            Text="Effective Date"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            FontWeight="SemiBold"
+                            Foreground="#F3F4F6"/>
+
+					</Grid>
+
+				</Border>
+
+
+				<!-- ================================================= -->
+				<!-- HISTORY LIST                                       -->
+				<!-- ================================================= -->
+
+				<ListView
+                    x:Name="HistoryListView"
+                    Grid.Row="1"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    SelectionMode="None"
+                    IsItemClickEnabled="False"
+                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                    ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+
+					<ListView.ItemTemplate>
+
+						<DataTemplate>
+
+							<Border
+                                BorderBrush="#30343D"
+                                BorderThickness="0,0,0,1"
+                                Padding="0">
+
+								<Grid
+                                    MinHeight="58">
+
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="2*"/>
+										<ColumnDefinition Width="1*"/>
+										<ColumnDefinition Width="1.3*"/>
+									</Grid.ColumnDefinitions>
+
+
+									<!-- ================================= -->
+									<!-- PRODUCT NAME                        -->
+									<!-- ================================= -->
+
+									<TextBlock
+                                        Grid.Column="0"
+                                        Text="{Binding ProductName}"
+                                        Margin="18,0"
+                                        VerticalAlignment="Center"
+                                        FontSize="14"
+                                        Foreground="#F3F4F6"/>
+
+
+									<!-- ================================= -->
+									<!-- COST PRICE                         -->
+									<!-- ================================= -->
+
+									<TextBlock
+                                        Grid.Column="1"
+                                        Text="{Binding CostPrice}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontSize="14"
+                                        Foreground="#F3F4F6"/>
+
+
+									<!-- ================================= -->
+									<!-- EFFECTIVE DATE                     -->
+									<!-- ================================= -->
+
+									<TextBlock
+                                        Grid.Column="2"
+                                        Text="{Binding EffectiveDate}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        FontSize="14"
+                                        Foreground="#F3F4F6"/>
+
+								</Grid>
+
+							</Border>
+
+						</DataTemplate>
+
+					</ListView.ItemTemplate>
+
+				</ListView>
+
+
+				<!-- ================================================= -->
+				<!-- EMPTY STATE                                       -->
+				<!-- ================================================= -->
+
+				<StackPanel
+                    x:Name="EmptyStatePanel"
+                    Grid.Row="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Visibility="Collapsed">
+
+					<TextBlock
+                        Text="No cost price history found"
+                        HorizontalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="SemiBold"
+                        Foreground="#F3F4F6"/>
+
+					<TextBlock
+                        Text="Try changing your search."
+                        Margin="0,8,0,0"
+                        HorizontalAlignment="Center"
+                        FontSize="14"
+                        Foreground="#9CA3AF"/>
+
+				</StackPanel>
+
+			</Grid>
+
+		</Border>
+
+	</Grid>
+
+</Page>

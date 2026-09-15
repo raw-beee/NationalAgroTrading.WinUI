@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Compile the REAL migration code, not a copy of it. -->
+    <Compile Include="..\NationalAgroTrading.WinUI\Services\AppConfig.cs" Link="AppConfig.cs" />
+    <Compile Include="..\NationalAgroTrading.WinUI\Data\DatabaseHelper.cs" Link="DatabaseHelper.cs" />
+  </ItemGroup>
+</Project>

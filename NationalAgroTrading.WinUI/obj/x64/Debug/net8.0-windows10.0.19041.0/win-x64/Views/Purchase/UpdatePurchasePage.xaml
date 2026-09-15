@@ -1,0 +1,398 @@
+﻿<Page
+    x:Class="NationalAgroTrading.WinUI.Views.Purchase.UpdatePurchasePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:NationalAgroTrading.WinUI.Controls"
+    mc:Ignorable="d">
+
+	<ScrollViewer
+        VerticalScrollBarVisibility="Auto">
+
+		<Grid
+            Padding="24"
+            RowSpacing="20">
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+
+			<!-- ================================================= -->
+			<!-- HEADER                                            -->
+			<!-- ================================================= -->
+
+			<Grid
+                Grid.Row="0">
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+
+
+				<StackPanel
+                    Grid.Column="0"
+                    Spacing="5">
+
+					<TextBlock
+                        Text="Edit Purchase"
+                        FontSize="28"
+                        FontWeight="SemiBold"/>
+
+					<TextBlock x:ConnectionId='21'
+                        x:Name="BillTextBlock"
+                        FontSize="15"/>
+
+					<TextBlock x:ConnectionId='22'
+                        x:Name="CompanyTextBlock"
+                        FontSize="14"
+                        Opacity="0.7"/>
+
+				</StackPanel>
+
+
+				<Button x:ConnectionId='20'
+                    Grid.Column="1"
+                    Content="Back"
+                                            
+                    Padding="16,8"/>
+
+			</Grid>
+
+
+			<!-- ================================================= -->
+			<!-- PURCHASE DATE                                     -->
+			<!-- ================================================= -->
+
+			<Border
+                Grid.Row="1"
+                Padding="16"
+                CornerRadius="8"
+                BorderThickness="1"
+                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+
+				<StackPanel
+                    Spacing="8">
+
+					<TextBlock
+                        Text="Purchase Date"
+                        FontSize="16"
+                        FontWeight="SemiBold"/>
+
+					<TextBlock
+                        Text="Enter Nepali date in YYYY-MM-DD format, or use the calendar."
+                        FontSize="12"
+                        Opacity="0.7"/>
+
+					<controls:NepaliDatePicker x:ConnectionId='19'
+                        x:Name="PurchaseDatePicker"
+                        Width="250"
+                        HorizontalAlignment="Left"/>
+
+				</StackPanel>
+
+			</Border>
+
+
+			<!-- ================================================= -->
+			<!-- PURCHASE ITEMS                                    -->
+			<!-- ================================================= -->
+
+			<Grid
+                Grid.Row="2"
+                RowSpacing="20">
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+
+
+				<!-- ============================================= -->
+				<!-- ADD NEW ITEM                                  -->
+				<!-- ============================================= -->
+
+				<Border
+                    Grid.Row="0"
+                    Padding="16"
+                    CornerRadius="8"
+                    BorderThickness="1"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+
+					<StackPanel
+                        Spacing="12">
+
+						<TextBlock
+                            Text="Add Product"
+                            FontSize="18"
+                            FontWeight="SemiBold"/>
+
+
+						<Grid
+                            ColumnSpacing="12">
+
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="2*"/>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="Auto"/>
+							</Grid.ColumnDefinitions>
+
+
+							<!-- PRODUCT -->
+
+							<StackPanel
+                                Grid.Column="0"
+                                Spacing="4">
+
+								<TextBlock
+                                    Text="Product"/>
+
+								<AutoSuggestBox x:ConnectionId='18'
+                                    x:Name="ProductAutoSuggestBox"
+                                    PlaceholderText="Select product"
+                                                                                   
+                                                                                             />
+
+							</StackPanel>
+
+
+							<!-- QUANTITY -->
+
+							<StackPanel
+                                Grid.Column="1"
+                                Spacing="4">
+
+								<TextBlock
+                                    Text="Quantity"/>
+
+								<TextBox x:ConnectionId='17'
+                                    x:Name="NewQuantityTextBox"
+                                    PlaceholderText="Quantity"
+                                                                          />
+
+							</StackPanel>
+
+
+							<!-- COST PRICE -->
+
+							<StackPanel
+                                Grid.Column="2"
+                                Spacing="4">
+
+								<TextBlock
+                                    Text="Cost Price"/>
+
+								<TextBox x:ConnectionId='16'
+                                    x:Name="NewCostPriceTextBox"
+                                    PlaceholderText="Cost price"
+                                                                          />
+
+							</StackPanel>
+
+
+							<!-- ADD BUTTON -->
+
+							<Button x:ConnectionId='15'
+                                Grid.Column="3"
+                                Content="Add Item"
+                                VerticalAlignment="Bottom"
+                                                           
+                                Padding="16,8"/>
+
+						</Grid>
+
+
+						<StackPanel
+                            Orientation="Horizontal"
+                            Spacing="20">
+
+							<TextBlock x:ConnectionId='13'
+                                x:Name="NewItemSubtotalTextBlock"
+                                Text="Subtotal: 0.00"/>
+
+							<TextBlock x:ConnectionId='14'
+                                x:Name="NewItemVATTextBlock"
+                                Text="VAT: 0.00"/>
+
+						</StackPanel>
+
+					</StackPanel>
+
+				</Border>
+
+
+				<!-- ============================================= -->
+				<!-- ITEMS LIST                                    -->
+				<!-- ============================================= -->
+
+				<Border
+                    Grid.Row="1"
+                    Padding="12"
+                    CornerRadius="8"
+                    BorderThickness="1"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+
+					<ListView x:ConnectionId='10'
+                        x:Name="PurchaseItemsListView"
+                        SelectionMode="None">
+
+						<ListView.ItemTemplate>
+
+							<DataTemplate>
+
+								<Grid
+                                    Padding="8"
+                                    ColumnSpacing="12">
+
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="2*"/>
+										<ColumnDefinition Width="100"/>
+										<ColumnDefinition Width="120"/>
+										<ColumnDefinition Width="120"/>
+										<ColumnDefinition Width="120"/>
+										<ColumnDefinition Width="Auto"/>
+									</Grid.ColumnDefinitions>
+
+
+									<TextBlock
+                                        Grid.Column="0"
+                                        Text="{Binding ProductName}"
+                                        VerticalAlignment="Center"/>
+
+
+									<TextBox
+                                        Grid.Column="1"
+                                        Text="{Binding Quantity, Mode=TwoWay}"
+                                        VerticalAlignment="Center"/>
+
+
+									<TextBox
+                                        Grid.Column="2"
+                                        Text="{Binding CostPrice, Mode=TwoWay}"
+                                        VerticalAlignment="Center"/>
+
+
+									<TextBlock
+                                        Grid.Column="3"
+                                        Text="{Binding SubtotalText}"
+                                        VerticalAlignment="Center"/>
+
+
+									<TextBlock
+                                        Grid.Column="4"
+                                        Text="{Binding VATText}"
+                                        VerticalAlignment="Center"/>
+
+
+									<Button x:ConnectionId='12'
+                                        Grid.Column="5"
+                                        Content="Remove"
+                                        Tag="{Binding}"
+                                                                      
+                                        VerticalAlignment="Center"/>
+
+								</Grid>
+
+							</DataTemplate>
+
+						</ListView.ItemTemplate>
+
+					</ListView>
+
+				</Border>
+
+
+				<!-- ============================================= -->
+				<!-- TOTALS                                        -->
+				<!-- ============================================= -->
+
+				<Border
+                    Grid.Row="2"
+                    Padding="16"
+                    CornerRadius="8"
+                    BorderThickness="1"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+
+					<StackPanel
+                        HorizontalAlignment="Right"
+                        Spacing="6">
+
+						<TextBlock x:ConnectionId='4'
+                            x:Name="SubtotalTextBlock"
+                            Text="Subtotal: Rs. 0.00"/>
+
+						<StackPanel
+                            Orientation="Horizontal"
+                            Spacing="8">
+
+							<TextBlock
+                                Text="Discount %:"/>
+
+							<TextBox x:ConnectionId='9'
+                                x:Name="DiscountPercentTextBox"
+                                Width="100"
+                                Text="0"
+                                                                                />
+
+						</StackPanel>
+
+						<TextBlock x:ConnectionId='5'
+                            x:Name="DiscountTextBlock"
+                            Text="Discount (0%): Rs. 0.00"/>
+
+						<TextBlock x:ConnectionId='6'
+                            x:Name="AfterDiscountTextBlock"
+                            Text="After Discount: Rs. 0.00"/>
+
+						<TextBlock x:ConnectionId='7'
+                            x:Name="VATTextBlock"
+                            Text="VAT: Rs. 0.00"/>
+
+						<TextBlock x:ConnectionId='8'
+                            x:Name="GrandTotalTextBlock"
+                            Text="Grand Total: Rs. 0.00"
+                            FontSize="18"
+                            FontWeight="SemiBold"/>
+
+					</StackPanel>
+
+				</Border>
+
+			</Grid>
+
+
+			<!-- ================================================= -->
+			<!-- BOTTOM BUTTONS                                    -->
+			<!-- ================================================= -->
+
+			<StackPanel
+                Grid.Row="3"
+                Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                Spacing="10">
+
+				<Button x:ConnectionId='2'
+                    Content="Cancel"
+                                              
+                    Padding="18,9"/>
+
+				<Button x:ConnectionId='3'
+                    Content="Save Changes"
+                                                   
+                    Padding="18,9"/>
+
+			</StackPanel>
+
+		</Grid>
+
+	</ScrollViewer>
+
+</Page>
+

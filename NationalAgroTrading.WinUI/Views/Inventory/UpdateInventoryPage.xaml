@@ -1,0 +1,93 @@
+<Page
+    x:Class="NationalAgroTrading.WinUI.Views.Inventory.UpdateInventoryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<ScrollViewer>
+
+		<Grid
+            MaxWidth="600"
+            Padding="32"
+            HorizontalAlignment="Center">
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<TextBlock
+                Grid.Row="0"
+                Text="Edit Inventory"
+                FontSize="28"
+                FontWeight="SemiBold"
+                Margin="0,0,0,24"/>
+
+			<TextBlock
+                Grid.Row="1"
+                Text="Product"
+                FontSize="13"
+                Opacity="0.7"/>
+
+			<TextBlock
+                x:Name="ProductNameTextBlock"
+                Grid.Row="2"
+                FontSize="18"
+                FontWeight="SemiBold"
+                Margin="0,2,0,18"/>
+
+			<TextBox
+                x:Name="OpeningQuantityTextBox"
+                Grid.Row="3"
+                Header="Opening Quantity"
+                PlaceholderText="Enter current physical stock"
+                Margin="0,0,0,12"/>
+
+			<TextBox
+                x:Name="QuantityTextBox"
+                Grid.Row="4"
+                Header="Quantity"
+                IsReadOnly="True"
+                Margin="0,0,0,12"/>
+
+			<TextBox
+                x:Name="TotalStockTextBox"
+                Grid.Row="5"
+                Header="Total Stock"
+                IsReadOnly="True"
+                Margin="0,0,0,12"/>
+
+			<TextBox
+                x:Name="TotalStockLeftTextBox"
+                Grid.Row="6"
+                Header="Total Stock Left"
+                IsReadOnly="True"
+                Margin="0,0,0,12"/>
+
+			<StackPanel
+                Grid.Row="7"
+                Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                Spacing="8"
+                Margin="0,12,0,0">
+
+				<Button
+                    Content="Cancel"
+                    Click="CancelButton_Click"/>
+
+				<Button
+                    Content="Save Opening Stock"
+                    Click="SaveButton_Click"/>
+
+			</StackPanel>
+
+		</Grid>
+
+	</ScrollViewer>
+
+</Page>

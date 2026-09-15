@@ -1,0 +1,230 @@
+<Page
+    x:Class="NationalAgroTrading.WinUI.Views.Payment.AddPaymentPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NationalAgroTrading.WinUI.Controls"
+    Background="{StaticResource AppSurfaceBrush}">
+
+	<ScrollViewer
+        VerticalScrollBarVisibility="Auto">
+
+		<Grid
+            MaxWidth="900"
+            HorizontalAlignment="Center"
+            Padding="30">
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<!-- Header -->
+			<StackPanel Grid.Row="0" Margin="0,0,0,25">
+
+				<TextBlock
+                    Text="Add Payment"
+                    Style="{StaticResource AppPageTitleStyle}"/>
+
+				<TextBlock
+                    Text="Record money received from or paid to a company"
+                    Style="{StaticResource AppMutedTextStyle}"
+                    Margin="0,5,0,0"/>
+			</StackPanel>
+
+			<!-- Payment type -->
+			<Border
+                Grid.Row="1"
+                Background="{StaticResource AppSurfaceElevatedBrush}"
+                BorderBrush="{StaticResource AppBorderBrush}"
+                BorderThickness="1"
+                CornerRadius="10"
+                Padding="22"
+                Margin="0,0,0,18">
+
+				<StackPanel>
+
+					<TextBlock
+                        Text="Payment Type"
+                        Style="{StaticResource AppSectionTitleStyle}"
+                        Margin="0,0,0,15"/>
+
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="*"/>
+						</Grid.ColumnDefinitions>
+
+						<Button
+                            x:Name="ReceivedButton"
+                            Content="Money Received"
+                            Style="{StaticResource AppPrimaryButtonStyle}"
+                            Click="ReceivedButton_Click"
+                            Margin="0,0,8,0"
+                            Height="48"/>
+
+						<Button
+                            x:Name="MadeButton"
+                            Grid.Column="1"
+                            Content="Money Made / Paid"
+                            Style="{StaticResource AppSecondaryButtonStyle}"
+                            Click="MadeButton_Click"
+                            Margin="8,0,0,0"
+                            Height="48"/>
+					</Grid>
+
+					<TextBlock
+                        x:Name="PaymentTypeDescription"
+                        Text="Money received from the company"
+                        Style="{StaticResource AppMutedTextStyle}"
+                        Margin="0,12,0,0"/>
+				</StackPanel>
+			</Border>
+
+			<!-- Details -->
+			<Border
+                Grid.Row="2"
+                Background="{StaticResource AppSurfaceElevatedBrush}"
+                BorderBrush="{StaticResource AppBorderBrush}"
+                BorderThickness="1"
+                CornerRadius="10"
+                Padding="22"
+                Margin="0,0,0,18">
+
+				<StackPanel>
+
+					<TextBlock
+                        Text="Payment Details"
+                        Style="{StaticResource AppSectionTitleStyle}"
+                        Margin="0,0,0,18"/>
+
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="*"/>
+						</Grid.ColumnDefinitions>
+
+						<StackPanel Margin="0,0,10,16">
+							<TextBlock
+                                Text="Company"
+                                Style="{StaticResource AppBodyTextStyle}"
+                                Margin="0,0,0,7"/>
+
+							<AutoSuggestBox
+                                x:Name="CompanyBox"
+                                PlaceholderText="Search company..."
+                                TextChanged="CompanyBox_TextChanged"
+                                SuggestionChosen="CompanyBox_SuggestionChosen"
+                                QuerySubmitted="CompanyBox_QuerySubmitted"
+                                MinHeight="44"/>
+						</StackPanel>
+
+						<StackPanel
+                            Grid.Column="1"
+                            Margin="10,0,0,16">
+
+							<TextBlock
+                                Text="Amount"
+                                Style="{StaticResource AppBodyTextStyle}"
+                                Margin="0,0,0,7"/>
+
+							<NumberBox
+                                x:Name="AmountBox"
+                                PlaceholderText="0.00"
+                                SpinButtonPlacementMode="Hidden"
+                                Minimum="0"
+                                LargeChange="100"
+                                SmallChange="1"
+                                ValidationMode="InvalidInputOverwritten"
+                                MinHeight="44"/>
+						</StackPanel>
+
+						<StackPanel
+                            Grid.Row="1"
+                            Margin="0,0,10,16">
+
+							<TextBlock
+                                Text="Receipt No."
+                                Style="{StaticResource AppBodyTextStyle}"
+                                Margin="0,0,0,7"/>
+
+							<TextBox
+                                x:Name="ReceiptBox"
+                                PlaceholderText="Receipt number"
+                                MinHeight="44"/>
+						</StackPanel>
+
+						<StackPanel
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10,0,0,16">
+
+							<TextBlock
+                                Text="Payment Method"
+                                Style="{StaticResource AppBodyTextStyle}"
+                                Margin="0,0,0,7"/>
+
+							<ComboBox
+                                x:Name="PaymentMethodBox"
+                                SelectedIndex="0"
+                                MinHeight="44">
+
+								<ComboBoxItem Content="Cash"/>
+								<ComboBoxItem Content="Bank"/>
+								<ComboBoxItem Content="Cheque"/>
+								<ComboBoxItem Content="Online"/>
+								<ComboBoxItem Content="Other"/>
+							</ComboBox>
+						</StackPanel>
+
+						<StackPanel
+                            Grid.Row="2"
+                            Grid.ColumnSpan="2">
+
+							<TextBlock
+                                Text="Payment Date"
+                                Style="{StaticResource AppBodyTextStyle}"
+                                Margin="0,0,0,7"/>
+
+							<local:NepaliDatePicker
+                                x:Name="NepaliDatePicker"/>
+						</StackPanel>
+					</Grid>
+				</StackPanel>
+			</Border>
+
+			<!-- Buttons -->
+			<Grid Grid.Row="3">
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+
+				<Button
+                    Grid.Column="1"
+                    Content="Cancel"
+                    Style="{StaticResource AppSecondaryButtonStyle}"
+                    Click="CancelButton_Click"
+                    Margin="0,0,10,0"
+                    Padding="22,10"/>
+
+				<Button
+                    Grid.Column="2"
+                    Content="Save Payment"
+                    Style="{StaticResource AppPrimaryButtonStyle}"
+                    Click="SaveButton_Click"
+                    Padding="22,10"/>
+			</Grid>
+
+			<TextBlock
+                x:Name="ErrorText"
+                Grid.Row="3"
+                Foreground="{StaticResource AppDangerBrush}"
+                Visibility="Collapsed"
+                Margin="0,55,0,0"/>
+		</Grid>
+	</ScrollViewer>
+</Page>
